@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FMDatabase.h"
+#import "FMDatabaseAdditions.h"
+#import "FavoritesViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIWebViewDelegate>
 
 @end

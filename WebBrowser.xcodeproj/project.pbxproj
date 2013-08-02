@@ -23,6 +23,14 @@
 		FF0EBE2617AB4AD800D1004D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0EBE0117AB4AD700D1004D /* Foundation.framework */; };
 		FF0EBE2E17AB4AD800D1004D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF0EBE2C17AB4AD800D1004D /* InfoPlist.strings */; };
 		FF0EBE3117AB4AD800D1004D /* WebBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0EBE3017AB4AD800D1004D /* WebBrowserTests.m */; };
+		FF0EBE4217AB4BA900D1004D /* favorites.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FF0EBE3A17AB4BA900D1004D /* favorites.sqlite */; };
+		FF0EBE4317AB4BA900D1004D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0EBE3C17AB4BA900D1004D /* FMDatabase.m */; };
+		FF0EBE4417AB4BA900D1004D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0EBE3E17AB4BA900D1004D /* FMDatabaseAdditions.m */; };
+		FF0EBE4517AB4BA900D1004D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0EBE4017AB4BA900D1004D /* FMResultSet.m */; };
+		FF0EBE4617AB4BA900D1004D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0EBE4117AB4BA900D1004D /* icon.png */; };
+		FF0EBE4917AB893900D1004D /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0EBE4817AB893900D1004D /* FavoritesViewController.m */; };
+		FF0EBE4B17AB8A6D00D1004D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0EBE4A17AB8A6D00D1004D /* libsqlite3.0.dylib */; };
+		FF0EBE4E17AB8ADD00D1004D /* Favorites.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0EBE4D17AB8ADD00D1004D /* Favorites.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +66,19 @@
 		FF0EBE2D17AB4AD800D1004D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF0EBE2F17AB4AD800D1004D /* WebBrowserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebBrowserTests.h; sourceTree = "<group>"; };
 		FF0EBE3017AB4AD800D1004D /* WebBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebBrowserTests.m; sourceTree = "<group>"; };
+		FF0EBE3A17AB4BA900D1004D /* favorites.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = favorites.sqlite; sourceTree = "<group>"; };
+		FF0EBE3B17AB4BA900D1004D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		FF0EBE3C17AB4BA900D1004D /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		FF0EBE3D17AB4BA900D1004D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		FF0EBE3E17AB4BA900D1004D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		FF0EBE3F17AB4BA900D1004D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		FF0EBE4017AB4BA900D1004D /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		FF0EBE4117AB4BA900D1004D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FF0EBE4717AB893900D1004D /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		FF0EBE4817AB893900D1004D /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		FF0EBE4A17AB8A6D00D1004D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		FF0EBE4C17AB8ADD00D1004D /* Favorites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Favorites.h; sourceTree = "<group>"; };
+		FF0EBE4D17AB8ADD00D1004D /* Favorites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Favorites.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0EBE4B17AB8A6D00D1004D /* libsqlite3.0.dylib in Frameworks */,
 				FF0EBE0017AB4AD700D1004D /* UIKit.framework in Frameworks */,
 				FF0EBE0217AB4AD700D1004D /* Foundation.framework in Frameworks */,
 				FF0EBE0417AB4AD700D1004D /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +109,15 @@
 		FF0EBDF317AB4AD700D1004D = {
 			isa = PBXGroup;
 			children = (
+				FF0EBE4A17AB8A6D00D1004D /* libsqlite3.0.dylib */,
+				FF0EBE3A17AB4BA900D1004D /* favorites.sqlite */,
+				FF0EBE3B17AB4BA900D1004D /* FMDatabase.h */,
+				FF0EBE3C17AB4BA900D1004D /* FMDatabase.m */,
+				FF0EBE3D17AB4BA900D1004D /* FMDatabaseAdditions.h */,
+				FF0EBE3E17AB4BA900D1004D /* FMDatabaseAdditions.m */,
+				FF0EBE3F17AB4BA900D1004D /* FMResultSet.h */,
+				FF0EBE4017AB4BA900D1004D /* FMResultSet.m */,
+				FF0EBE4117AB4BA900D1004D /* icon.png */,
 				FF0EBE0517AB4AD700D1004D /* WebBrowser */,
 				FF0EBE2917AB4AD800D1004D /* WebBrowserTests */,
 				FF0EBDFE17AB4AD700D1004D /* Frameworks */,
@@ -123,6 +154,10 @@
 				FF0EBE1A17AB4AD700D1004D /* ViewController.h */,
 				FF0EBE1B17AB4AD700D1004D /* ViewController.m */,
 				FF0EBE0617AB4AD700D1004D /* Supporting Files */,
+				FF0EBE4717AB893900D1004D /* FavoritesViewController.h */,
+				FF0EBE4817AB893900D1004D /* FavoritesViewController.m */,
+				FF0EBE4C17AB8ADD00D1004D /* Favorites.h */,
+				FF0EBE4D17AB8ADD00D1004D /* Favorites.m */,
 			);
 			path = WebBrowser;
 			sourceTree = "<group>";
@@ -236,6 +271,8 @@
 				FF0EBE1417AB4AD700D1004D /* Default@2x.png in Resources */,
 				FF0EBE1617AB4AD700D1004D /* Default-568h@2x.png in Resources */,
 				FF0EBE1917AB4AD700D1004D /* MainStoryboard.storyboard in Resources */,
+				FF0EBE4217AB4BA900D1004D /* favorites.sqlite in Resources */,
+				FF0EBE4617AB4BA900D1004D /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +310,11 @@
 				FF0EBE0C17AB4AD700D1004D /* main.m in Sources */,
 				FF0EBE1017AB4AD700D1004D /* AppDelegate.m in Sources */,
 				FF0EBE1C17AB4AD700D1004D /* ViewController.m in Sources */,
+				FF0EBE4317AB4BA900D1004D /* FMDatabase.m in Sources */,
+				FF0EBE4417AB4BA900D1004D /* FMDatabaseAdditions.m in Sources */,
+				FF0EBE4517AB4BA900D1004D /* FMResultSet.m in Sources */,
+				FF0EBE4917AB893900D1004D /* FavoritesViewController.m in Sources */,
+				FF0EBE4E17AB8ADD00D1004D /* Favorites.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
