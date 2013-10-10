@@ -49,7 +49,7 @@
     FMDatabase *db = [FMDatabase databaseWithPath:databasePath];
     [db open];
     //クエリー文を指定
-    NSString *query = [NSString stringWithFormat:@"SELECT * FROM my_favorites"];
+    NSString *query = [NSString stringWithFormat:@"SELECT distinct title,url FROM my_favorites where title <> ''"];
     //クエリー開始
     [db beginTransaction];
     
@@ -60,8 +60,9 @@
         f.url = [results stringForColumn:@"url"];
         [favoriteList addObject:f];
         
-        [db close];
     }
+    [db close];
+
 }
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView   {
     return 1;

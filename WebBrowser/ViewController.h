@@ -11,6 +11,6 @@
 #import "FMDatabaseAdditions.h"
 #import "FavoritesViewController.h"
 
-@interface ViewController : UIViewController<UIWebViewDelegate>
+@interface ViewController : UIViewController<UIWebViewDelegate, UITextFieldDelegate,FavoritesViewControllerDelegate>
 
 @end
